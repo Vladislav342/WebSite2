@@ -1,0 +1,77 @@
+.we-cook{
+    .block-cook-right{
+        padding: 150px 0;
+        .cook{
+            text-align: right;
+            img{
+                height: 200px;
+            }
+        }
+    }
+    .block-cook-middle{
+        text-align: center;
+        background: hotpink;
+        margin-top: 95px;
+        height: 325px;
+        h2{
+            color: #fff;
+            text-transform: uppercase;
+            padding-top: 15px;
+        }
+        .can-call{
+            background: palevioletred;
+            color: #fff;
+            padding: 15px 0;
+            h3{
+                padding-top: 10px;
+                font-size: 12px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            p{
+                font-size: 25px;
+                // margin: 0;
+            }
+        }
+            .or{
+                margin-bottom: 7px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+           h4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid indianred;
+            border-radius: 50%;
+            height: 22px;
+            width: 27px;
+            text-transform: uppercase;
+            font-size: 12px; 
+           }
+        }
+        a{
+            border-radius: 4px;
+            padding: 10px 30px;
+            background: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+        a:hover{
+            color: #fff;
+            transition: 0.7s;
+            background: #b81194;
+        }
+        
+    }
+    .block-cook-left{
+        padding: 150px 0;
+        .cook-one{
+            text-align: left;
+            img{
+                height: 200px;
+            }
+        }
+    }
+}

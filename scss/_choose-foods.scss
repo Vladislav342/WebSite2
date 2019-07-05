@@ -1,0 +1,19 @@
+.choose-foods{
+    text-align: center;
+    margin: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    .choose-food{
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 12px solid lightblue;
+        }
+        p{
+            font-size: 22px;
+            text-transform: capitalize;
+            font-weight: 800;
+        }
+    }
+}

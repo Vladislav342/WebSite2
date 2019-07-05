@@ -1,0 +1,56 @@
+.weekly{
+    padding-bottom: 70px;
+    .block-weekly{
+        text-align: center;
+        h2{
+            font-size: 30px;
+            padding: 50px 0;
+            font-family: monospace;
+            text-transform: uppercase;
+        }
+    }
+    .block-choose{
+        .block-food{
+            padding: 25px;
+            background-color: #e6f2ff;
+            h3{
+                font-size: 26px;
+                text-transform: capitalize;
+                border-bottom: 1px solid #8c8c8c;
+            }
+            .block-description{
+                background-color: #fff;
+                .picture{
+                    position: relative;
+                    z-index: 2;
+                    img{
+                        width: 100%;
+                    }
+                    .price{
+                        position: absolute;
+                        bottom: 5%;
+                        right: 0;
+                        z-index: 3;
+                        span{
+                            opacity: 0.8;
+                            color: #ff0000;
+                            padding: 7px 15px;
+                            background-color: antiquewhite;
+                        }
+                    }
+                }
+            }
+            .block-definition{
+                padding: 20px 20px 5px 20px;
+                background-color: #fff;
+                h4{
+                    margin: 0;
+                    text-transform: capitalize;
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}

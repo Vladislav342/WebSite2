@@ -1,0 +1,25 @@
+.get-application{
+    height: 250px;
+    background-color: orangered;
+        .block-get-application{
+            text-align: center;
+        p{
+            color: #fff;
+            text-transform: uppercase;
+            padding: 55px 0 30px 0;
+        }
+        a{
+            background-color: #fff;
+            text-decoration: none;
+            padding: 10px 25px;
+            color: indianred;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+        a:hover{
+            background-color: #808080;
+            transition: 0.9s;
+            color: #fff;
+        }
+    }
+}

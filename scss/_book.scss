@@ -1,0 +1,132 @@
+.book{
+    background-image: url(../img/back-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    .block-book{
+        p{
+            padding-top: 15px;
+            text-align: center;
+            color:#000;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-weight: 900;
+            background-color: #fff;
+            opacity: 0.7;
+        }
+    }
+    .block-left{
+        padding: 0;
+        text-align: right;
+        img{
+            width: 350px;
+            height: 250px;
+        }
+    }
+    .block-right{
+        padding: 0;
+       .block-right-back{
+            background: #fff;
+            padding: 0;
+            text-align: left;
+            width: 350px;
+            height: 250px;
+            h2{
+                text-align: center;
+                text-transform: capitalize;
+                padding: 15px 0 15px 0;
+                margin: 0;
+            }
+            .block-left-days{
+                text-align: right;
+                form{
+                    p{
+                        select{
+                            outline:none;
+                            cursor: context-menu;
+                            border-left: hidden;
+                            border-top: hidden;
+                            border-right: hidden;
+                            width: 80%;
+                            height: 30px;
+                            option{
+                            }
+                        }
+                    }
+                }
+                p{
+                    input{
+                        outline:none;
+                        border-left: hidden;
+                        border-top: hidden;
+                        border-right: hidden;
+                        width: 80%;
+                    }
+                }
+                form{
+                    p{
+                        select{
+                            option{
+
+                            }
+                        }
+                    }
+                }
+            }
+            .block-right-days{
+                text-align: left;
+                form{
+                    p{
+                        select{
+                            outline:none;
+                            cursor: context-menu;
+                            border-left: hidden;
+                            border-top: hidden;
+                            border-right: hidden;
+                            width: 80%;
+                            height: 30px;
+                            option{
+
+                            }
+                        }
+                    }
+                }
+                input{
+                    outline:none;
+                    border-left: hidden;
+                    border-top: hidden;
+                    border-right: hidden;
+                    width: 80%;
+
+                }
+                .book-table{
+                    outline:none;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 68.2%;
+                    left: 9%;
+                    width: 67%;
+                    height: 30px;
+                    color: white;
+                    background-color: #E26D5A;
+                    border: hidden;
+                    border-radius: 5px;
+                }
+                .book-table:hover{
+                    opacity: 0.9;
+                    transition: 0.7s;
+                    color:#fff;
+                    background-color: brown
+                }
+                .book-table:active {
+                    background-color: #ff0000;
+                    color: #000;
+                    transition: 0.3s;
+                   } 
+                    
+            }
+       }
+    }
+}
